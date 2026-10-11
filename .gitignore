@@ -1,0 +1,9 @@
+*.zip
+.DS_Store
+node_modules/
+*.log
+*.jsonl
+ghost-export-*.json
+chat-export*.json
+exports/
+private/
