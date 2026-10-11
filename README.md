@@ -45,4 +45,5 @@ Please open an issue before a large refactor. A good fix includes reproduction s
 
 ## License
 
-**Not yet selected.** Please choose an open-source license (e.g., MIT or Apache-2.0) before inviting reuse or publishing as an open-source project. Public visibility alone does not grant reuse rights.
+Licensed under the [MIT License](LICENSE). Copyright (c) 2026 Hitgirlsworld.
+
