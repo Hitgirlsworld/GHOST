@@ -8,6 +8,8 @@ An experimental, opt-in Brave/Chromium browser extension that captures text from
 
 GHOST is exploring how locally saved conversations can become useful project memory: connecting related ideas, revisiting decisions and their context, and helping people resume unfinished work. The goal is to make saved conversations easier to use, beyond simply exporting them.
 
+A central goal is to capture the decision-making process people express in conversations: the options they consider, choices they make, revisions, and reasons they explicitly share. Over time, GHOST could help users review how a project evolved, with links back to the original messages and control over what is retained. This is a proposed direction; the current prototype does not reliably reconstruct decisions or infer hidden motives, personality, or unspoken reasoning.
+
 Today’s prototype focuses on local capture, manual review, and basic decision-signal heuristics. Cross-chat search, linked ideas, decision summaries, and project handoffs are future directions, not implemented features.
 
 ## Install locally
