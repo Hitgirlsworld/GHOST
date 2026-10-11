@@ -1,0 +1,1 @@
+GHOST 1.3: ChatGPT message-attribute detection. User: data-user-message-bubble=true. Assistant: DIL response root with data-dil-message-id. Keeps local storage, export, automatic capture, and manual review. Capture is off until enabled. These selectors may change in future ChatGPT updates.\n

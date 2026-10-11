@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "GHOST \u2014 Local Chat Memory",
+  "version": "1.3.0",
+  "description": "Opt-in local ChatGPT capture using message-specific DOM markers.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://chatgpt.com/*",
+    "https://chat.openai.com/*"
+  ],
+  "background": {
+    "service_worker": "worker.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "GHOST"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chatgpt.com/*",
+        "https://chat.openai.com/*"
+      ],
+      "js": [
+        "scanner.js",
+        "auto.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
