@@ -4,6 +4,12 @@ An experimental, opt-in Brave/Chromium browser extension that captures text from
 
 > **Prototype — not production-ready.** Capture can become stale during conversation switching and may miss older chats. Do not treat extracted decision signals as reliable judgments or personality data. Not affiliated with OpenAI.
 
+## Project vision
+
+GHOST is exploring how locally saved conversations can become useful project memory: connecting related ideas, revisiting decisions and their context, and helping people resume unfinished work. The goal is to make saved conversations easier to use, beyond simply exporting them.
+
+Today’s prototype focuses on local capture, manual review, and basic decision-signal heuristics. Cross-chat search, linked ideas, decision summaries, and project handoffs are future directions, not implemented features.
+
 ## Install locally
 
 1. Download or clone this repository.
