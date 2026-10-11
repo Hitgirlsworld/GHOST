@@ -6,7 +6,7 @@ An experimental, opt-in Brave/Chromium browser extension that captures text from
 
 ## Project vision
 
-GHOST is exploring how locally saved conversations can become useful project memory: connecting related ideas, revisiting decisions and their context, and helping people resume unfinished work. The goal is to make saved conversations easier to use, beyond simply exporting them.
+GHOST is the foundational capture prototype for a larger decision-making project. Its purpose is to develop a reliable, user-controlled way to preserve the decisions and context people explicitly express in conversations, so future tools can help them review choices, connect related ideas, and resume unfinished work. Chat capture and export are the starting point for that broader goal.
 
 A central goal is to capture the decision-making process people express in conversations: the options they consider, choices they make, revisions, and reasons they explicitly share. Over time, GHOST could help users review how a project evolved, with links back to the original messages and control over what is retained. This is a proposed direction; the current prototype does not reliably reconstruct decisions or infer hidden motives, personality, or unspoken reasoning.
 
@@ -49,9 +49,3 @@ Please open an issue before a large refactor. A good fix includes reproduction s
 - [ ] Support for scrolling/loading older conversation history
 - [ ] Clear accuracy metrics for speaker labels and missed turns
 - [ ] Safer storage and privacy model; explicit retention controls
-- [ ] Machine-readable export format for a separate decision-model experiment
-
-## License
-
-Licensed under the [MIT License](LICENSE). Copyright (c) 2026 Hitgirlsworld.
-
